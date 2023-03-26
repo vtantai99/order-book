@@ -18,3 +18,5 @@ jobs:
       run: npm install
     - name: Check lint
       run: yarn lint
+    - name: Testing
+      run: yarn test
