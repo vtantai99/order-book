@@ -8,6 +8,6 @@ describe('App', () => {
     render(<App />)
     // ACT
     // EXPECT
-    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('Vite + Reactzzz')
+    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('Vite + React')
   })
 })
