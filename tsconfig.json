@@ -17,6 +17,11 @@
     "jsx": "react-jsx",
     "baseUrl": "src"
   },
-  "include": ["src", ".eslintrc.cjs", "commitlint.config.cjs"],
+  "include": [
+    "src", 
+    ".eslintrc.cjs",
+    "commitlint.config.cjs",
+    "vite.config.ts"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
