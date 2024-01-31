@@ -39,6 +39,7 @@ module.exports = {
     '@typescript-eslint/semi': ['error', 'never'],
     '@typescript-eslint/comma-dangle': ['error', 'never'],
     '@typescript-eslint/no-unused-vars': 'error',
-    '@typescript-eslint/no-explicit-any': 'error'
+    '@typescript-eslint/no-explicit-any': 'error',
+    'max-len': ['error', { code: 200 }]
   }
 }
